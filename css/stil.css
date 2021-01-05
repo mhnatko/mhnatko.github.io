@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family:'Helvetica', sans-serif; 
+}
+
+/* HTML TAGOVI */
+
+a {
+  border: 1px solid rgb(80, 80, 80);
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
+  background-color: rgb(5, 139, 180);
+  margin: 0;
+  padding: 2em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* KLASE */
+
+.header-pozadina {
+  background-image: url("../slike/rusinski-grb.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pocetni-naslovi {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0; 
+  background-color: rgba(23, 22, 20, 0.5) ;
+  color: white;
+  /* background-color: rgba(5, 139, 180, 0.4); */
+}
+
+.pocetni-link {
+  border-bottom: hidden;
+}
+
+.pocetni-link-kontakt {
+  border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+.lijeva-linija {
+  border-left: hidden;
+  border-bottom: hidden;
+}
+
+.lijeva-linija-kontakt {
+  border-left: hidden;
+}
+
+.traka {
+  background-color:rgb(5, 139, 180);
+  display: flex;
+  justify-content: center;
+}
+
+.slika-tekst-flex {
+  display: flex;
+}
+
+.slika-tekst-flex img {
+  width: 30%;
+  border: 1px solid rgb(80, 80, 80) ;
+  border-right: none;
+}
+
+.aktivnosti {
+  padding: 0 20px;
+  border: 1px solid rgb(80, 80, 80) ;
+}
+
+.aktivnosti p {
+  text-align: justify;
+}
+
+.pjevanje-slika {
+  display: flex;
+}
+
+.pjevanje-slika img {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.padding-tekst {
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.forma {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid rgb(80, 80, 80);
+  
+}
+
+.pošalji {
+  padding: 10px 15px;
+}
+
+/* HTML TAGOVI I KLASE */
+
+label p, .pošalji {
+  margin: 10px;
+}
+
+.input, textarea {
+  display: block;
+  margin: 0 auto;
+  width: 99%;
+}
+
+
+
