@@ -91,7 +91,7 @@ h1, h2 {
 
 .pjevanje-slika img {
   width: 75%;
-  margin: 0 auto;
+  margin: 20px auto;
   border: 1px solid black;
   border-radius: 10%;
 }
@@ -104,8 +104,6 @@ h1, h2 {
 .forma {
   width: 80%;
   margin: 20px auto;
-  border: 1px solid rgb(80, 80, 80);
-  
 }
 
 .pošalji {
@@ -114,8 +112,8 @@ h1, h2 {
 
 /* HTML TAGOVI I KLASE */
 
-label p, .pošalji {
-  margin: 10px;
+.pošalji {
+  margin-top: 10px;
 }
 
 .input, textarea {
