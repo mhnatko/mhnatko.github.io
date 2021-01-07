@@ -77,6 +77,10 @@ h1, h2 {
 }
 
 @media (max-device-width: 642px) {
+  body {
+    font-size: 2rem;
+  }
+
   .slika-tekst-flex {
     display: initial;
   }
