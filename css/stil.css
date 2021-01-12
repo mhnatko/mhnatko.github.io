@@ -77,8 +77,16 @@ h1, h2 {
 }
 
 @media (max-device-width: 642px) {
+  .traka a {
+    font-size: 3rem;
+  }
+
   .aktivnosti p {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 60px;
   }
 
   .slika-tekst-flex {
